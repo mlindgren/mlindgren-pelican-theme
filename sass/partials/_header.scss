@@ -1,5 +1,7 @@
 body > header {
   background: $header-bg;
+  background-size: cover;
+  background-repeat: no-repeat;
   h1 {
     display: inline-block;
     margin: 0;
