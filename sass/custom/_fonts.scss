@@ -8,3 +8,98 @@
 //$heading-font-family: "Verdana", sans-serif;
 //$header-title-font-family: "Futura", sans-serif;
 //$header-subtitle-font-family: "Futura", sans-serif;
+
+
+@media screen and (min-width: 640px)
+{
+  article p, article li, article blockquote
+  {
+    font-size: 0.8em !important;
+  }
+
+  li blockquote, li p
+  {
+    font-size: 1.0em !important;
+  }
+}
+
+article blockquote
+{
+  font-size: 1.0em !important;
+}
+
+blockquote em
+{
+  font-style: normal;
+}
+
+#main li
+{
+  margin-bottom: 1em;
+  line-height: 1.5em !important;
+}
+
+#tweets li
+{
+  font-size: 0.9em !important;
+}
+
+#main small
+{
+  font-size: 0.7em !important;
+}
+
+#content .blog-index article
+{
+  padding-top: 1em !important;
+}
+
+h1
+{
+  font-weight: bold !important;
+}
+
+body, .heading, body > #main h1, h2, h3, h4, h5, h6,
+.blog-index a[rel="full-article"]
+{
+  font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica,
+               Verdana, Arial, Sans-Serif !important;
+}
+
+body > header h1
+{
+  font-family: Museo-700 !important;
+  font-size: 64pt !important;
+  text-shadow: 0px 0px 10px black;
+}
+
+article p
+{
+  line-height: 1.5em;
+}
+
+sup, sub
+{
+  font-size: 0.3em;
+  display: inline;
+}
+
+#content a
+{
+  text-decoration: none;
+}
+
+#gh_repos li a
+{
+  font-weight: bold;
+}
+
+.footnotes p, .footnotes ol
+{
+  font-size: 8pt !important;
+}
+
+.fancybox-title-float-wrap .child
+{
+  font-weight: normal !important;
+}

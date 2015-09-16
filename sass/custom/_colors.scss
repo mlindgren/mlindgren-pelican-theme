@@ -16,7 +16,7 @@
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
-//$solarized: light;
+$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 //$base03:          #002b36; //darkest blue
@@ -41,3 +41,127 @@
 //$pre-bg: $base03;
 //$pre-border: darken($base02, 5);
 //$pre-color: $base1;
+
+.category-coding a, .category-coding a:visited,
+#blog-archives.category-coding h1 a,
+li.post.category-coding > a, li.post.category-coding > a:visited
+{
+  color: #20bb20 !important;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: color, background;
+  text-decoration: none;
+}
+
+.category-coding a:hover,
+#blog-archives.category-coding h1 a:hover,
+li.post.category-coding > a:hover
+{
+  color: #0A7A0A !important;
+  text-decoration: none;
+}
+
+#content .blog-index .category-coding a[rel="full-article"]:hover
+{
+  color: #fff !important;
+  background-color: #20bb20;
+}
+
+.category-other a, .category-reviews a:visited,
+#blog-archives.category-other h1 a,
+li.post.category-other > a, li.post.category-reviews > a:visited
+{
+  color: #c00 !important;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: color, background;
+  text-decoration: none;
+}
+
+.category-other a:hover,
+#blog-archives.category-other h1 a:hover,
+li.post.category-other > a:hover
+
+{
+  color: #850000 !important;
+  text-decoration: none;
+}
+
+#content .blog-index .category-other a[rel="full-article"]:hover
+{
+  color: #fff !important;
+  background-color: #c00;
+}
+
+.category-technology a, .category-technology a:visited,
+#blog-archives.category-technology h1 a,
+li.post.category-technology > a, li.post.category-technology > a:visited
+
+{
+  color: #e66f00 !important;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: color, background;
+  text-decoration: none;
+}
+
+.category-technology a:hover,
+#blog-archives.category-technology h1 a:hover,
+li.post.category-technology > a:hover
+{
+  color: #964800 !important;
+  text-decoration: none;
+}
+
+#content .blog-index .category-technology a[rel="full-article"]:hover
+{
+  color: #fff !important;
+  background-color: #e66f00;
+}
+
+.category-reviews a, .category-reviews a:visited,
+#blog-archives.category-reviews h1 a,
+li.post.category-reviews > a, li.post.category-reviews > a:visited
+{
+  color: #004DFF !important;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: color, background;
+  text-decoration: none;
+}
+
+.category-reviews a:hover,
+#blog-archives.category-reviews h1 a:hover,
+li.post.category-reviews > a:hover
+{
+  color: #0032A6 !important;
+  text-decoration: none;
+}
+
+#content .blog-index .category-reviews a[rel="full-article"]:hover
+{
+  color: #fff !important;
+  background-color: #004DFF;
+}
+
+.category-links a, .category-links a:visited,
+#blog-archives.category-links h1 a,
+li.post.category-links > a, li.post.category-links > a:visited
+
+{
+  color: #a050bb !important;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: color, background;
+  text-decoration: none;
+}
+
+.category-links a:hover,
+#blog-archives.category-links h1 a:hover,
+li.post.category-links > a:hover
+{
+  color: #621A7A !important;
+  text-decoration: none;
+}
+
+#content .blog-index .category-links a[rel="full-article"]:hover
+{
+  color: #fff !important;
+  background-color: #a050bb;
+}
+
