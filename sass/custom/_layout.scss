@@ -42,6 +42,7 @@ $header-image-height: 1050px;
 
 .entry-title
 {
+  margin-top: 0.5em;
   margin-bottom: 0;
 }
 
@@ -98,7 +99,7 @@ body.Win32 > header > hgroup > h1
   padding-top: 0;
 }
 
-#main article > div > header
+.blog-index header
 {
   padding-top: 1.5em;
   margin-top: 0.2em;

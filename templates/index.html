@@ -4,7 +4,7 @@
 <div class="blog-index">
   {% if articles %}
   	{% for article in articles_page.object_list %}
-  		<article>
+  		<article class="category-{{ article.category|lower }}">
     		{% include '_includes/article.html' %}
   		</article>
   	{% endfor %}
