@@ -42,7 +42,7 @@ $header-image-height: 1050px;
 
 .entry-title
 {
-  margin-top: 0.5em;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -84,11 +84,6 @@ body.Win32 > header > hgroup > h1
   position: relative;
 }
 
-#main article
-{
-  padding-top: 0.2em;
-}
-
 #main article ul, article ol
 {
   padding-left: 1em;
@@ -101,7 +96,6 @@ body.Win32 > header > hgroup > h1
 
 .blog-index header
 {
-  padding-top: 1.5em;
   margin-top: 0.2em;
 }
 

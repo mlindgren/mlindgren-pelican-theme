@@ -5,7 +5,9 @@
   <article role="article">
     <header>
       {% include '_includes/qr_code.html' %}
-      <h1 class="entry-title">{{ page.title }}</h1>
+      <h1 class="entry-title">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </h1>
     </header>
     {{ page.content }}
   </article>
