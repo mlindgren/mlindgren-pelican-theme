@@ -1,7 +1,7 @@
 <aside class="sidebar">
   {% if SIDEBAR_IMAGE %}
   <section>
-	  <img src="{{ SITEURL }}/{{ SIDEBAR_IMAGE }}" alt="{{ SIDEBAR_IMAGE_ALT}}" width="{{SIDEBAR_IMAGE_WIDTH}}"/> 
+      <img src="{{ SITEURL }}/{{ SIDEBAR_IMAGE }}" alt="{{ SIDEBAR_IMAGE_ALT}}" width="{{SIDEBAR_IMAGE_WIDTH}}"/> 
   </section>
   {% endif %}
   <section>
@@ -9,6 +9,14 @@
     <ul id="sidebar_pages">
       <li><a href="{{ SITEURL }}">Home</a></li>
       <li><a href="{{ SITEURL }}/blog/archives/">Archives</a></li>
+      {% for title, link in MENUITEMS %}
+          <li><a href="{{ link }}">{{ title }}</a></li>
+      {% endfor %}
+      {% if DISPLAY_PAGES_ON_MENU %}
+        {% for page in PAGES %}
+          <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      {% endif %}
     </ul>
   </section>
   <section>
